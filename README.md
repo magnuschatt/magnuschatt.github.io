@@ -1,41 +1,22 @@
-## Welcome to GitHub Pages
+# The Cosmic Calendar
 
-You can use the [editor on GitHub](https://github.com/magnuschatt/magnuschatt.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Have you ever stopped and thought about how crazy a thing you are? I mean, you are a blob of atoms, which came from an exploding star, which came from an exploding universe, and right now you are contemplating your own existence. It’s almost dizzying to think about. Carl Sagan said it best:
+We are a way for the Cosmos to know itself.
+But how exactly did we go from the Big Bang to us? With this post I want to draw a clear and memorable picture of what happened in the last 13.8 billion years, which is the age of our universe. For that we need to overcome an important obstacle, namely our inability to visualize large numbers. Consider for instance these three facts:
+Earth is 4.5 billion years old.
+Dinosaurs went extinct 66 million years ago.
+Humans appeared 200 thousand years ago.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+As interesting as that is, it’s hard to get a sense of for how these numbers compare. To fix that we’ll do what Carl Sagan did on the Cosmos TV show and scale it all down to just one calendar year. On this so called Cosmic Calendar we have the Big Bang at the beginning of January and you reading this article at the end of December. Now let’s see if this improves our sense of time:
+Earth formed on September 6th.
+Dinosaurs went extinct on December 30th.
+Humans appeared on December 31st at 11:52 PM.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-[second](second)
-[/second](/second)
-[/](/)
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/magnuschatt/magnuschatt.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+That’s better! We now get a much better feel of  when events occurred. It suddenly doesn’t feel too long ago that dinosaurs roamed the Earth.
+In the following sections we visit each month of the Cosmic Calendar and discover the epic series of events that eventually lead to us. As a final thing before we get going, here’s a cheat sheet on  how to move between calendar time and real time:
+1 year ~ 13.8 billion years (age of the universe)
+1 month ~ 1.1 billion years
+1 day ~ 38 million years
+1 hour ~ 1.6 million years
+1 minute ~ 26 thousand years
+1 second ~ 437 years
