@@ -5,9 +5,15 @@ this['magnuschatt-github'] = function (Kotlin) {
   'use strict';
   var _ = Kotlin.defineRootPackage(null, /** @lends _ */ {
     main_kand9s$: function (args) {
-      var message = 'Hello JavaScript!';
+      var message = 'Hello tihs is app2!';
       Kotlin.println(message);
-    }
+    },
+    kotlin: Kotlin.definePackage(null, /** @lends _.kotlin */ {
+      main_kand9s$: function (args) {
+        var message = 'Hello JavaScript!';
+        Kotlin.println(message);
+      }
+    })
   });
   Kotlin.defineModule('magnuschatt-github', _);
   _.main_kand9s$([]);
