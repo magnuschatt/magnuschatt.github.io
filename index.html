@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
 <head>
     <meta charset="UTF-8">
     <title>Console Output</title>
 </head>
 <body>
 
-Let's do it the simple way!
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-<p id="demo"></p>
+Let's do it the simple way! Hello magnus
 
 <script>
-var url = "https://script.google.com/macros/s/AKfycbwvIVDdBaaV5TkB9RTtYiXUlSkqKrnAW2FmnQ4d0S-UZM-Dfb5S/exec";
-$http.get(url)
-    .then(function(response) {
-        document.getElementById("demo").innerHTML = response.data;
+
+var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwvIVDdBaaV5TkB9RTtYiXUlSkqKrnAW2FmnQ4d0S-UZM-Dfb5S/exec";
+
+$(document).ready(function() {
+    $("button").click(function() {
+        $.getJSON(SCRIPT_URL+"?callback=?",
+            {method:"populate_list"}, function (data) {
+                alert(JSON.stringify(data));
+            });
     });
+});
+
+
 </script>
+
+<button>Send GET</button>
 
 </body>
 </html>
