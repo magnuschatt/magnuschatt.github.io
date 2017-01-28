@@ -1,33 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Console Output</title>
+    <title>Moment</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="lib/kotlin.js"></script>
 </head>
 <body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-Let's do it the simple way! Hello magnus
-
-<script>
-
-var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwvIVDdBaaV5TkB9RTtYiXUlSkqKrnAW2FmnQ4d0S-UZM-Dfb5S/exec";
-
-$(document).ready(function() {
-    $("button").click(function() {
-        $.getJSON(SCRIPT_URL+"?callback=?",
-            {method:"populate_list"}, function (data) {
-                alert(JSON.stringify(data));
-            });
-    });
-});
-
-
-</script>
-
-<button>Send GET</button>
-
+    <div id="bob"></div>
+    <div id="rofl"></div>
+    <script src="moment.js"></script>
 </body>
 </html>
